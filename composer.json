@@ -1,0 +1,51 @@
+{
+    "name": "tripteki/laravelphp-request-response-query",
+    "version": "1.0.0",
+    "description": "Trip Teknologi's Laravel.php Request Response Query",
+
+    "readme": "README.md",
+    "license": "MIT",
+    "authors": [ { "name": "Trip Teknologi", "email": "tripteki.company@gmail.com" } ],
+    "homepage": "https://github.com/tripteki/laravelphp-request-response-query",
+    "support": { "issues": "https://github.com/tripteki/laravelphp-request-response-query/issues" },
+
+    "require": {
+
+        "php": "^8.0.2",
+
+        "spatie/laravel-query-builder": "^5.1.2"
+    },
+
+    "require-dev": {},
+
+    "suggest": {
+
+        "laravel/lumen-framework": "Required when using lumen framework (^9.0).",
+        "laravel/framework": "Required when using laravel framework (^9.0)."
+    },
+
+    "autoload": {
+
+        "psr-4": {
+
+            "Tripteki\\RequestResponseQuery\\": "src/"
+        }
+    },
+
+    "autoload-dev": {},
+
+    "extra": {
+
+        "laravel": {
+
+            "dont-discover": [],
+
+            "providers": [
+
+                "Tripteki\\RequestResponseQuery\\Providers\\RequestResponseQueryServiceProvider"
+            ],
+
+            "aliases": []
+        }
+    }
+}
